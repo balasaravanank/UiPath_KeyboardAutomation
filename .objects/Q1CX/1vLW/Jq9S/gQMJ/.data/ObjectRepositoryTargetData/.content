@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2jYPDwSBGUGM2XSNU-0ogA" Reference="uc4OI5bYMkaffRMVEOzj5g/gQMJqlr6ykGLg7SFqzdeFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d9ae69fb-474d-49c3-a350-bd43e8c9fb41" CvElementArea="3772, 29, 40, 39" CvType="CloseButton" DesignTimeRectangle="3737, 16, 119, 70" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="52227563-4514-48d2-a490-3b6350328e15" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Untitled - Notepad' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d9ae69fb-474d-49c3-a350-bd43e8c9fb41" CvElementArea="2, 165, 3868, 1936" CvType="InputBox" DesignTimeRectangle="6, 176, 3864, 1925" ElementType="InputBox" Guid="12b6ec89-03ba-4852-8991-de18765fed1a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2022d14513ab054a641d1ace9de2ae6e.png" xmlns="">0vvOLhtW7e0649LjkRzZudA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

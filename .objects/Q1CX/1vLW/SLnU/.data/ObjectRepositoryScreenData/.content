@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="71jhGhvLH0CfuEAAHS-t-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 1920, 1200" FilePath="Microsoft.WindowsNotepad_8wekyb3d8bbwe!App" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAJOgAACToAYJjBRwAAAImSURBVDhPhY9LU1JhHIfZsHD0CzndKANFCbRSkzDNLlRmUhbZNNMnKBex0W2p4XVAkVAxCLkLcueIyU3CuIPWjMtfw2FceN7G3pnfzNk8z3n+LBbjsWWKClumkJ31/c83ZEsev4v8QYN8As2zdoyGDtEgH8dVpRUjviLq5ePgTJkx5M5BoqeOmTxr0J7GW+oIb8KHeB2s4FWgjBF/Cc+9BQx78ni2ncNTVxZPtjLo0UfA5FlSawqjoQrkgTJe+kt44StCdgK6a+Bj5y9IHWl0rVGk4IElSYNsmeLM3bOmcFMXJgUDpjidK1ryQqj2QqDyQKDaRuuiG/wFF5oXXODNbaHfnES7NkgK+oyxU3c+ch7goT2N+7af9F/vmvfRt5lArykOocZPCiSGPRpkJjMnNkTRtuQjBWL9LqSOA7RUc+eruU5w5xxomnHgyowdHKUNl6at6Nr4Ab7KQwq613fo3AFLCv3mfdzZTEDyPY7bxhh6DFF0b+yhU7+LG+sRcBfdpKBzlaLvZCYz166j0DTvIgUd2hB6TYla7pda7sVpC85PWnBu0ozGzyY0fjLhmjYEzqyTFIg0AYiNMdz6FqXvpHPXIuhY3YFIR9Fg20oQfE0AF5R2UnBd7T51ZxWs5gq/hiFYCaJVE0DLsh88tQ+Xp0ykQP9xGOVyGaVSCcVikV6hUEA+n0cul6OXzWaRyWSw/H6QFEwI6o/GeHX4wP3/xnh1v0+4v1PA/LAfJHkBAAAAAElFTkSuQmCC" Selector="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="53958f525909dfbfa6c511cb3b5ea99b.png" xmlns="">0LFasfD3ckUSAIJSLNFV3yw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
