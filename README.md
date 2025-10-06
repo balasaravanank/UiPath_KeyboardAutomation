@@ -1,4 +1,4 @@
-# 🧠 UiPath – Keyboard Automation (Simulate Keystrokes in Notepad)
+# UiPath – Keyboard Automation (Simulate Keystrokes in Notepad)
 
 This repository contains a **UiPath automation workflow** that demonstrates how to:
 - **Open Notepad automatically**
@@ -8,45 +8,36 @@ This repository contains a **UiPath automation workflow** that demonstrates how 
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 - Built using **UiPath Studio (Modern Design Experience)**
 - Demonstrates use of **Start Process**, **Attach Window**, **Type Into**, and **Send Hotkey** activities
 - Designed for **beginners** to understand basic **desktop keyboard automation**
 
 ---
 
-## 📂 Project Files
-| File | Description |
-|------|--------------|
-| `Main.xaml` | Main UiPath workflow (core logic) |
-| `project.json` | UiPath project configuration file |
-| `.gitignore` | (Optional) Ignore unnecessary UiPath folders when pushing to GitHub |
+## Workflow Logic
 
----
-
-## 🧩 Workflow Logic
-
-### 🔹 Step 1 – Start Notepad
+### Step 1 – Start Notepad
 - Uses the **Start Process** activity to launch Notepad (`notepad.exe`)
 
-### 🔹 Step 2 – Type Text
+### Step 2 – Type Text
 - Uses **Type Into** activity with `Simulate Type` mode enabled  
 - Automatically types: Yoo here bala - this is automated typing from UiPath!
 - - `ClickBeforeTyping` ensures Notepad is focused before typing
 
-### 🔹 Step 3 – Save File (Ctrl + S)
+### Step 3 – Save File (Ctrl + S)
 - Uses **Send Hotkey** activity with:
 - Key: `s`
 - Modifier: `Ctrl`
 - Triggers the **Save As** dialog box
 
-### 🔹 Step 4 – Enter Filename
+### Step 4 – Enter Filename
 - In the Save As dialog:
 - **Type Into** the filename field:  
   `C:\Users\Public\Desktop\UiPath_AutoFile.txt`
 - **Send Hotkey** → `Enter` to confirm and save
 
-### 🔹 Step 5 – Close Notepad
+### Step 5 – Close Notepad
 - Uses **Send Hotkey** activity:
 - Key: `w`
 - Modifier: `Alt`
@@ -54,7 +45,7 @@ This repository contains a **UiPath automation workflow** that demonstrates how 
 
 ---
 
-## 🧠 Example Run (Steps Overview)
+## Example Run (Steps Overview)
 
 | Step | Action | Description |
 |------|---------|--------------|
@@ -66,7 +57,7 @@ This repository contains a **UiPath automation workflow** that demonstrates how 
 
 ---
 
-## ⚙️ Activities Used
+## Activities Used
 | Activity | Purpose |
 |-----------|----------|
 | **Start Process** | Launches the Notepad application |
@@ -78,51 +69,13 @@ This repository contains a **UiPath automation workflow** that demonstrates how 
 ---
 
 
----
+## OUTPUT
+<img width="3840" height="2160" alt="Screenshot 2025-10-06 210543" src="https://github.com/user-attachments/assets/770e451e-879f-4ff4-8003-a62b16d53953" />
+<img width="3840" height="2160" alt="Screenshot 2025-10-06 210613" src="https://github.com/user-attachments/assets/ec0ac8c8-704e-48a3-9c4f-2b49cc757532" />
+<img width="3840" height="2160" alt="Screenshot 2025-10-06 210705" src="https://github.com/user-attachments/assets/e0797eca-7122-42b5-86b3-c43ec79c15c7" />
 
-## 🧰 Requirements
-- **UiPath Studio** (Community or Enterprise Edition)
-- **UiPath.UIAutomation.Activities** package
-- Windows 10 or 11
-
----
-
-## 💡 Tips
-- If keystrokes don’t register, try changing `Input Mode` in **Type Into** from `SimulateType` → `SendWindowMessages`
-- Ensure UiPath and Notepad run under the same permission level (both as normal user or both as admin)
-- Add small **Delay** activities (1–2 seconds) between steps for smoother execution
 
 ---
 
-## 🖥️ Example Output
-When you run the workflow:
-1. Notepad opens automatically  
-2. The text is typed line by line  
-3. File is saved on your **Desktop** as `UiPath_AutoFile.txt`  
-4. Notepad closes automatically  
-
----
-
-## 📸 Screenshots
-*(You can add your own screenshots like these)*
-
-| Step | Screenshot |
-|------|-------------|
-| Open Notepad | ![Open Notepad](https://github.com/user-attachments/assets/example1.png) |
-| Type Text | ![Type Text](https://github.com/user-attachments/assets/example2.png) |
-| Save As Dialog | ![Save File](https://github.com/user-attachments/assets/example3.png) |
-
----
-
-## 🧑‍💻 Author
-**Bala Saravanan K**  
-> Exploring automation with UiPath and RPA concepts ✨  
-
----
-
-## 🏁 License
-This project is open-source and available under the **MIT License**.
-
----
 
 
